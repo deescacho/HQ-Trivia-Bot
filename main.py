@@ -9,8 +9,8 @@ from pytesseract import image_to_string
 
 dirname = os.path.dirname(__file__)
 fileOne = os.path.join(dirname, 'img/1.png')
-fileTwo = os.path.join(dirname, 'img/2.jpg')
-fileThree = os.path.join(dirname, 'img/3.jpg')
+fileTwo = os.path.join(dirname, 'img/2.png')
+fileThree = os.path.join(dirname, 'img/3.png')
 
 myText = image_to_string(Image.open(fileOne))
 print(myText)
